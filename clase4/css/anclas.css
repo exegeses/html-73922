@@ -1,0 +1,31 @@
+body{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+    background-color: hsl(141, 20%, 17%);
+    color: hsl(141, 20%, 86%);;
+}
+main{
+    width: 768px;
+    margin: 40px auto 480px auto;
+}
+nav a{
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    height: 280px;
+}
+    #primero{
+        background-color: hsl(141, 20%, 14%);
+    }
+    #segundo{
+        background-color: hsl(40, 20%, 14%);
+    }
+    #tercero{
+        background-color: hsl(206, 19%, 14%);
+    }
+    #cuerto{
+        background-color: hsl(286, 18%, 14%);
+    }
