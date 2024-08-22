@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3e3e3e;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+main{
+    width: 768px;
+    margin: 64px auto;
+}
+h1{
+    font-weight: 300;
+}
+section{
+    background-color: hsl(0, 0%, 16%);
+    height: 380px;
+    margin: 40px 0px;
+}
+    article{
+        width: 104px;
+        height: 96px;
+        background-color: hsl(124, 80%, 36%);
+        border: 1px solid hsl(124, 80%, 60%);
+    }
+    #dos{
+        padding: 16px;
+    }

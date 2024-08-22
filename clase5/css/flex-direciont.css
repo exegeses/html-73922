@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{
+    background-color: #3e3e3e;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+main{
+    width: 768px;
+    margin: 64px auto;
+}
+h1{
+    font-weight: 300;
+}
+section{
+    background-color: hsl(0, 0%, 16%);
+    height: 380px;
+    margin: 40px 0px;
+}
+    article{
+        width: 104px;
+        height: 96px;
+        background-color: hsl(124, 80%, 36%);
+        border: 1px solid hsl(124, 80%, 60%);;
+    }
+
+#fila{
+    display: flex;
+    flex-direction: row; /* predeterminado: de izquierda a derecha */
+    /* eje horizontal */
+    justify-content: space-between;
+
+    /* eje verticalk */
+    align-items: center;
+}
+#fila-inversa{
+    display: flex;
+    flex-direction: row-reverse; 
+    /* de derecha a izquierda (inversión de orden de elementos) */
+}
+
+#columna{
+    display: flex;
+    flex-direction: column; /*  en columna desde arriba hacia debajo */
+    /* Importante: se acaban de invertir los ejes */
+    justify-content: space-between;
+}
+#columna-inversa{
+    display: flex;
+    flex-direction: column-reverse; /*  en columna desde debajo hacia arriba */
+
+    align-items: center;
+}
+
+    
