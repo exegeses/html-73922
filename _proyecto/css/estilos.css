@@ -28,3 +28,76 @@ header{
             font-size: 20px;
             margin: 8px;
         }
+/* main */
+/* sección hero-banner */
+
+    #hero-banner{
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=5b86e5&c2=37d2dc&gt=l&gd=dtt
+*/
+    background: #5B86E5;
+    background: linear-gradient(180deg, #5B86E5, #37D2DC);
+    }
+        #hero-banner div{
+            width: 1100px;
+            height: 680px;
+            margin: auto;
+
+            display: flex;
+            align-items: center;
+        }
+            #hero-banner div article{
+                width: 550px;
+                color: white;
+            }
+                #hero-banner div article h1{
+                    margin-bottom: 40px;
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+                #hero-banner div article h2{
+                    width: 478px;
+                    font-size: 40px;
+                    font-weight: 600;
+                }
+
+/*# sección servicios #*/
+
+    #servicios{
+        width: 1100px;
+        height: 414px;
+        margin: 72px auto 0px auto;
+        padding: 32px 24px;
+
+        display: flex;
+        flex-wrap: wrap; /* Respeta los anchos de los elementos contenidos */
+        justify-content: space-between;
+    }
+        #servicios h3{
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 32px;
+        }
+        #servicios article{
+            width: 336px;
+            height: 289px;
+            padding: 24px 28px;
+            border: 2px solid #07B2FF;
+            border-radius: 8px;
+            color: #07B2FF;
+        }
+            #servicios article h2{
+                font-weight: 300;
+                margin: 24px 0px 16px 0px;
+            }
+            #servicios article p{
+                margin-bottom: 8px;
+            }
+            #servicios article a{
+                text-decoration: none;
+                color: #07B2FF;
+            }
+            
