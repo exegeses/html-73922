@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(230, 27%, 13%);
+    color: hsl(230, 27%, 86%);
+    font-size: 24px;
+    font-family: Trebuchet MS, sans-serif;
+}
+main{
+    width: 768px;
+    margin: 40px auto;
+}
+
+    section{
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    article{
+        width: 256px;
+        padding: 32px;
+        background-color: hsl(230, 27%, 16%);
+        border: 4px solid  hsl(230, 27%, 40%);
+        border-radius: 16px;
+        transition: 500ms; 
+    }
+    article:hover{
+        transform: scale(1.1);
+        background-color: hsl(230, 27%, 32%);
+    }
