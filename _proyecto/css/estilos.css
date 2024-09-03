@@ -29,6 +29,9 @@ header{
             margin: 8px;
         }
 /* main */
+main{
+    min-height: 600px;
+}
 /* sección hero-banner */
 
     #hero-banner{
@@ -152,6 +155,14 @@ header{
             border-right: 32px solid #07B2FF;
             border-radius: 8px;
             text-decoration: none;
+            transition: 500ms;
+        }
+        #portfolio article a:hover{
+            background-color: #0B1E46;
+            transform: scale(1.1);
+        }
+        #portfolio article a:hover h3{
+            color: white;
         }
             #portfolio article a h2{
                 margin-bottom: 8px;
@@ -164,6 +175,47 @@ header{
                 font-weight: 600;
                 font-size: 24px;
             }
+
+/* Formulario de contacto */
+    form{
+        width: 648px;
+        margin: 72px auto 0px auto;
+        padding: 44px 84px;
+        background-color: #CCEFFF;
+        border-radius: 16px;
+    }
+        form input, 
+        form textarea
+        {
+            width: 480px;
+            margin-bottom: 32px;
+            padding: 12px 20px 12px 20px;
+            border: none;
+            border-left: 12px solid #07B2FF;
+            border-radius: 8px;
+            font-family: "Figtree", sans-serif;
+            color: hsl(218, 20%, 16%);  
+            font-size: 16px;      
+        }
+
+        form textarea{
+            height: 160px;
+            resize: none;
+        }
+
+        form button{
+            width: 180px;
+            padding: 10px;
+            background-color: #07B2FF;
+            border-radius: 8px;
+            border: none;
+            font-family: "Figtree", sans-serif;
+            font-size: 16px;
+            color: white;
+            
+            /* box-shadow: X Y blur color; */
+            box-shadow: 0px 4px 8px hsla(0, 0%, 0%, 25%);
+        }
 
 
 
