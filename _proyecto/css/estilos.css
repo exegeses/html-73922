@@ -151,7 +151,19 @@ header{
             background-color: #fff;
             border-right: 32px solid #07B2FF;
             border-radius: 8px;
+            text-decoration: none;
         }
+            #portfolio article a h2{
+                margin-bottom: 8px;
+                color: #07B2FF;
+                font-weight: normal;
+                font-size: 16px;
+            }
+            #portfolio article a h3{
+                color: #0B1E46;
+                font-weight: 600;
+                font-size: 24px;
+            }
 
 
 
